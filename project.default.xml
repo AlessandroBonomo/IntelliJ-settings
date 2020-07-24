@@ -1,0 +1,49 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="EclipseCodeFormatterProjectSettings">
+        <option name="selectedGlobalProfile">
+          <Settings>
+            <option name="formatter" value="ECLIPSE" />
+            <option name="id" value="1595515819127" />
+            <option name="name" value="inacta" />
+            <option name="pathToConfigFileJava" value="$USER_HOME$/Downloads/ims_code_style.xml" />
+            <option name="selectedJavaProfile" value="Inacta IMS" />
+          </Settings>
+        </option>
+      </component>
+      <component name="PropertiesComponent">
+        <property name="settings.editor.selected.configurable" value="settings.saveactions" />
+      </component>
+      <component name="SaveActionSettings">
+        <option name="actions">
+          <set>
+            <option value="activateOnShortcut" />
+            <option value="noActionIfCompileErrors" />
+            <option value="organizeImports" />
+            <option value="reformat" />
+            <option value="fieldCanBeFinal" />
+            <option value="localCanBeFinal" />
+            <option value="unqualifiedFieldAccess" />
+            <option value="missingOverrideAnnotation" />
+            <option value="useBlocks" />
+            <option value="generateSerialVersionUID" />
+            <option value="finalPrivateMethod" />
+            <option value="explicitTypeCanBeDiamond" />
+            <option value="suppressAnnotation" />
+            <option value="unnecessarySemicolon" />
+          </set>
+        </option>
+        <option name="configurationPath" value="" />
+        <option name="exclusions">
+          <set>
+            <option value=".*\.properties" />
+            <option value=".*\.xml" />
+            <option value=".*\.xsd" />
+            <option value=".*\.xsl" />
+          </set>
+        </option>
+      </component>
+    </defaultProject>
+  </component>
+</application>

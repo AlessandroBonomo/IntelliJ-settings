@@ -1,0 +1,15 @@
+<application>
+  <component name="EclipseCodeFormatterSettings">
+    <option name="settingsList">
+      <list>
+        <Settings>
+          <option name="formatter" value="ECLIPSE" />
+          <option name="id" value="1595515819127" />
+          <option name="name" value="inacta" />
+          <option name="pathToConfigFileJava" value="$USER_HOME$/Downloads/ims_code_style.xml" />
+          <option name="selectedJavaProfile" value="Inacta IMS" />
+        </Settings>
+      </list>
+    </option>
+  </component>
+</application>

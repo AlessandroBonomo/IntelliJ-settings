@@ -1,0 +1,13 @@
+<application>
+  <component name="SetterTemplates">
+    <option name="defaultTempalteName" value="setter" />
+    <option name="templates">
+      <list>
+        <TemplateResource>
+          <option name="fileName" value="setter" />
+          <option name="template" value="/**&#10;* Sets the value of the $field.name property&#10;#if ($field.primitive)&#10;* @param $field.name allowed object is $field.type&#10;#else&#10;* @param $field.name allowed object is {@link $field.type }&#10;#end&#10;* @return the {@link $classSignature}&#10;*/&#10;#set($paramName = $helper.getParamName($field, $project))&#10;public ##&#10;#if($field.modifierStatic)&#10;static void ##&#10;#else&#10;    $classSignature ##&#10;#end&#10;set$StringUtil.capitalizeWithJavaBeanConvention($StringUtil.sanitizeJavaIdentifier($helper.getPropertyName($field, $project)))($field.type $paramName) {&#10;#if ($field.name == $paramName)&#10;    #if (!$field.modifierStatic)&#10;    this.##&#10;    #else&#10;        $classname.##&#10;    #end&#10;#end&#10;$field.name = $paramName;&#10;#if(!$field.modifierStatic)&#10;return this;&#10;#end&#10;}" />
+        </TemplateResource>
+      </list>
+    </option>
+  </component>
+</application>
